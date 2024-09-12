@@ -1,0 +1,11 @@
+.comments {
+    background-color: bisque;
+}
+
+blockquote {
+    font-style:italic;
+}
+
+.comments article:nth-of-type(2) {
+    color: red;
+}

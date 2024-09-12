@@ -1,0 +1,12 @@
+.navbar_sidebar {
+    background-color: azure;
+}
+
+aside nav a {
+    background-color: black;
+    color: white;
+}
+
+footer li > a {
+    text-decoration: line-through;
+} 
