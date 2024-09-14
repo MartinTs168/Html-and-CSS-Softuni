@@ -1,0 +1,40 @@
+p.highlighted {
+    color: red;
+    font-size: large;
+}
+
+div#special {
+    background-color: orange;
+    padding: 2px;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type="text"].bordered {
+    border: 3px solid purple;
+    padding: auto;
+}
+
+.important {
+    color:aqua;
+}
+
+.important.highlighted {
+    color: red;
+    font-style: italic;
+}
+
+.fancy {
+    color: yellow;
+    background-color: black;
+}
+
+.fancy.special {
+    color: orange;
+    font-weight: bold;
+    background-color: white;
+}
+
+.fancy.unique {
+    color:forestgreen;
+}

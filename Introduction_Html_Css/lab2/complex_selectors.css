@@ -1,0 +1,55 @@
+nav a {
+    color:cornflowerblue;
+    font-style: italic;
+}
+
+nav ul li:first-child {
+    font-weight: 800;
+}
+
+nav ul li:last-child a {
+    color:red;
+    font-style: normal;
+}
+
+nav ul li:nth-of-type(2) a {
+    color:blueviolet;
+    font-size: larger;
+
+}
+
+div.services > section#special p {
+    background-color: yellow;
+}
+
+nav + header::before {
+    content: ">>";
+    color:brown;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav + header::after {
+    content: "  <<";
+    color:brown;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav + header {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+section#special ~ section article {
+    background-color: rgb(94, 130, 181);
+    color: white;
+}
+
+.gallery [type="image"] {
+    border-color: red;
+    border-style: solid;
+    border-width: 10px;
+}

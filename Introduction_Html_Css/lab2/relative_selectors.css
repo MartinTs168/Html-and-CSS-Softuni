@@ -1,0 +1,29 @@
+section p {
+    color: lightblue
+}
+
+ul.links > li {
+    list-style: none; 
+}
+
+article ~ ul {
+    list-style: none;
+}
+
+article + article {
+    background-color: lightcoral;
+}
+
+h2 ~ p {
+    background-color: lightgreen;
+    font-size:small;
+}
+
+li.special + li a {
+    color: red;
+    outline-style: auto;
+}
+
+li a {
+    text-decoration: none;
+}

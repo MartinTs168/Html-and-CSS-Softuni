@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+
+p {
+    font-size: small;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#main-title {
+    color: blue;
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+ul, ul > li {
+    list-style-type: disc;
+    color: aquamarine;
+}
+
+div {
+    background-color: brown;
+}
