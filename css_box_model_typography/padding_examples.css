@@ -1,0 +1,17 @@
+div {
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.uniform_padding {
+    padding: 20px;
+}
+
+.non_uniform_padding {
+    padding: 10px 20px 30px 40px;
+}
+
+.percentage_padding {
+    padding: 5%;
+    /* here the percentage is derived from the width of the element */
+}
