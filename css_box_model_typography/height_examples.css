@@ -1,0 +1,22 @@
+div {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.fixed_height {
+    height: 200px;
+}
+
+.perentage_height {
+    height: 50%;
+}
+
+.viewport_height {
+    height: 50vw;
+}
+
+.min_max_height {
+    min-height: 100px;
+    max-height: 300px;
+    box-sizing: border-box;
+}
