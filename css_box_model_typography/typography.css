@@ -29,17 +29,40 @@ table {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-collapse: collapse;
 }
 
 th {
-    background-color: grey;
     text-align: left;
+    border-spacing: 0;
     padding: 5px;
-    
+}
+
+table tr:first-child {
+    background-color: grey;
+
+}
+
+table tr:nth-child(2n + 2) {
+    background-color: lightgrey;
 }
 
 td {
     margin: 0px;
     padding: 0px;
+    border: 1px solid black;
 }
 
+blockquote {
+    margin: 20px;
+    padding: 20px;
+    font-style:italic;
+    border-left: 5px solid #ccc;
+}
+
+blockquote p.author {
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+}
