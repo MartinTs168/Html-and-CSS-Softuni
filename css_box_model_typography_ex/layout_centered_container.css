@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+}
+
+section#outer {
+    border: 3px solid green;   
+    margin: 0px;
+    padding: 20px 0px;
+}
+
+section#inner {
+    border: 3px solid blue;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section#inner > header,
+section#inner > main,
+section#inner > footer {
+    border: 3px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+section#inner > header,
+section#inner > main {
+    margin-bottom: 20px;
+}

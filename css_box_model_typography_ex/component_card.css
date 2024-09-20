@@ -1,0 +1,54 @@
+body {
+    background-color: #ebebeb;
+    font-family: Arial;
+}
+
+.card {
+    width: 30%;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.image_container img {
+    width: 100%;
+}
+
+body a {
+    color: inherit;
+    text-decoration: none;;
+}
+
+.main_container h2 {
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.main_container {
+    padding: 15px 20px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+.f_italic {
+    font-style: italic;
+}
+
+.shortened {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+p.excerpt {
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
