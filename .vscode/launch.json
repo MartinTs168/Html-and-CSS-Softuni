@@ -22,6 +22,12 @@
             "name": "http://127.0.0.1:3000/introduction_exercise/image_gallery.html",
             "request": "launch",
             "url": "http://127.0.0.1:3000/introduction_exercise/image_gallery.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/css_box_model_typography_ex/layout_section_wrapper.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/css_box_model_typography_ex/layout_section_wrapper.html"
         }
     ]
 }

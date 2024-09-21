@@ -1,0 +1,24 @@
+body {
+    border: 2px solid green;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.outer {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.outer > header,
+.outer > div,
+.outer > article,
+.outer > footer {
+    border: 2px solid blue;
+    margin: 20px 40px;
+    padding: 20px; 
+}
+
+.outer p {
+    font-weight: 600;
+    font-family: Arial;
+}

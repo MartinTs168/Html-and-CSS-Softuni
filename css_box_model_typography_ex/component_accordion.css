@@ -1,0 +1,34 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    width: 70vw;
+    margin: 30px auto;
+}
+
+.container details {
+    border: 1px solid #c0c0c0;
+    padding: 10px;
+    border-bottom: 0px;
+}
+
+.container details:last-child {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.container summary {
+    font-weight: 600;
+    cursor: pointer;
+    list-style-type: "> ";
+}
+
+details[open] summary {
+    list-style-type: "";
+}
+
+details[open] summary:before {
+    content: "v ";
+    font-size: 0.8em;
+    margin-right: 0.2em;
+}
