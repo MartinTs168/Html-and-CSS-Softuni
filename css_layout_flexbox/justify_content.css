@@ -1,0 +1,23 @@
+.js_con_flex {
+    justify-content: center;
+}
+
+.js_con_center {
+    justify-content: center;
+}
+
+.js_con_flex_end {
+    justify-content: flex-end;
+}
+
+.js_con_space_between {
+    justify-content: space-between;
+}
+
+.js_con_space_around {
+    justify-content: space-around;
+}
+
+.js_con_space_evenly {
+    justify-content: space-evenly;
+}
