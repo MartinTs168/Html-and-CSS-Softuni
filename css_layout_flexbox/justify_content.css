@@ -1,5 +1,5 @@
-.js_con_flex {
-    justify-content: center;
+.js_con_flex_start {
+    justify-content: flex-start;
 }
 
 .js_con_center {

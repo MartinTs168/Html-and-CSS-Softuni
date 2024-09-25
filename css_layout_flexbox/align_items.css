@@ -1,0 +1,24 @@
+.flex_container {
+    height: 200px;
+}
+
+.align_items_stretch {
+    align-items: stretch;
+}
+
+.align_items_flex_start {
+    align-items: flex-start;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.align_items_flex_end {
+    align-items: flex-end;
+}
+
+.align_items_flex_baseline {
+    align-items: baseline;
+}
+

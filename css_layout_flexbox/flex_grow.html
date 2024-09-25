@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="display_flex.css" type="text/css">
+    <link rel="stylesheet" href="flex_grow.css" type="text/css">
+</head>
+<body>
+    <h1>flex-grow</h1>
+    <h2>flex-grow:0;default</h2>
+    <div class="flex_container">
+        <div class="flex_item">1</div>
+        <div class="flex_item">2</div>
+        <div class="flex_item">3</div>
+    </div>
+    <h2>flex-grow:1;</h2>
+    <div class="flex_container">
+        <div class="flex_item flex_grow_1">1</div>
+        <div class="flex_item flex_grow_1">2</div>
+        <div class="flex_item flex_grow_1">3</div>
+    </div>
+    <h2>flex-grow, grow 2nd child only;</h2>
+    <div class="flex_container">
+        <div class="flex_item flex_grow_2nd_only">1</div>
+        <div class="flex_item flex_grow_2nd_only">2</div>
+        <div class="flex_item flex_grow_2nd_only">3</div>
+    </div>
+    <h2>flex-grow, grow proportionaly(1, 2, 3);</h2>
+    <div class="flex_container">
+        <div class="flex_item flex_grow_proportionaly">1</div>
+        <div class="flex_item flex_grow_proportionaly">2</div>
+        <div class="flex_item flex_grow_proportionaly">3</div>
+    </div>
+</body>
+</html>

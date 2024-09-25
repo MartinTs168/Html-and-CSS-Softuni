@@ -1,0 +1,25 @@
+.flex_container {
+    height: 200px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.align_content_flex_start {
+    align-content: flex-start;
+}
+
+.align_content_center {
+    align-content: center;
+}
+
+.align_content_flex_end {
+    align-content: flex-end;
+}
+
+.align_content_space_around {
+    align-content: space-around;
+}
+
+.align_content_space_between {
+    align-content: space-between;
+}
