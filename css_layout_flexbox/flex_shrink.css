@@ -1,0 +1,20 @@
+.flex_item {
+    flex-basis: 300px;
+}
+
+.flex_container {
+    align-items: flex-start;
+    width: 300px;
+}
+
+.flex_shrink_zero {
+    flex-shrink: 0;
+}
+
+.flex_shrink_2nd_only {
+    flex-shrink: 0;
+}
+
+.flex_shrink_2nd_only:nth-of-type(2) {
+    flex-shrink: 1;
+}

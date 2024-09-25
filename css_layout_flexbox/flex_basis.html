@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="display_flex.css" type="text/css">
+    <link rel="stylesheet" href="flex_basis.css" type="text/css">
+</head>
+<body>
+    <h1>flex-basis</h1>
+    <h2>flex-basis: 5em;</h2>
+    <div class="flex_container">
+        <div class="flex_item">1</div>
+        <div class="flex_item">2</div>
+        <div class="flex_item">3</div>
+        <div class="flex_item">4</div>
+        <div class="flex_item">5</div>
+        <div class="flex_item">6</div>
+    </div>
+    <h2>flex-basis: 5em; flex-shrink: 0; (max-width:5em)</h2>
+    <div class="flex_container">
+        <div class="flex_item flex_shrink_zero">1</div>
+        <div class="flex_item flex_shrink_zero">2</div>
+        <div class="flex_item flex_shrink_zero">3</div>
+        <div class="flex_item flex_shrink_zero">4</div>
+        <div class="flex_item flex_shrink_zero">5</div>
+        <div class="flex_item flex_shrink_zero">6</div>
+    </div>
+    <h2>flex-basis: 5em;flex-grow: 1; (min-width: 5em)</h2>
+    <div class="flex_container flex_grow_one">
+        <div class="flex_item flex_grow_one">1</div>
+        <div class="flex_item flex_grow_one">2</div>
+        <div class="flex_item flex_grow_one">3</div>
+        <div class="flex_item flex_grow_one">4</div>
+        <div class="flex_item flex_grow_one">5</div>
+        <div class="flex_item flex_grow_one">6</div>
+    </div>  
+</body>
+</html>

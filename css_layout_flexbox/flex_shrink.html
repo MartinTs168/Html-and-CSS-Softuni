@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="display_flex.css" type="text/css">
+    <link rel="stylesheet" href="flex_shrink.css" type="text/css">
+</head>
+<body>
+    <h1>flex-shrink</h1>
+    <h2>flex-shrink: 1;default</h2>
+    <div class="flex_container">
+        <div class="flex_item">1</div>
+        <div class="flex_item">2</div>
+        <div class="flex_item">3</div>
+    </div>
+    <h2>flex-shrink: 0</h2>
+    <div class="flex_container">
+        <div class="flex_item flex_shrink_zero">1</div>
+        <div class="flex_item flex_shrink_zero">2</div>
+        <div class="flex_item flex_shrink_zero">3</div>
+    </div>
+    <h2>flex-shrink, shrink 2nd child only</h2>
+    <div class="flex_container">
+        <div class="flex_item flex_shrink_2nd_only">1</div>
+        <div class="flex_item flex_shrink_2nd_only">2</div>
+        <div class="flex_item flex_shrink_2nd_only">3</div>
+    </div>
+</body>
+</html>
