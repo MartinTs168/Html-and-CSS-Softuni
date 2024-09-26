@@ -1,4 +1,20 @@
 .flex_container {
     align-items: flex-start;
+    height: 200px;
 }
 
+.align_self_flex_start .flex_item:nth-of-type(2) {
+    align-self: flex-start;
+}
+
+.align_self_center .flex_item:nth-of-type(2) {
+    align-self: center;
+}
+
+.align_self_flex_end .flex_item:nth-of-type(2) {
+    align-self: flex-end;
+}
+
+.align_self_baseline .flex_item:nth-of-type(2) {
+    align-self: baseline;
+}
