@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+.nav_menu {
+    list-style-type: none;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    background-color: silver;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_item {
+    background-color: #fff;
+    color: orange;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px;
+}
