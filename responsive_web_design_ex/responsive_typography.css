@@ -1,0 +1,33 @@
+html {
+    font-family: Lato, sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family:inherit;
+}
+
+body {
+    background-color: #eee;
+}
+
+.container {
+    width: 80%;
+    margin: 1em auto;
+    background-color: white;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background-color: grey;
+}
+
+tr:nth-last-of-type(even) {
+    background-color: #eee;
+}

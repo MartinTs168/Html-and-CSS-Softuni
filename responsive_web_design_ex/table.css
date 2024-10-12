@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font: 20px/1.5 Lato, sans-serif;
+}
+
+table {
+    width: 90%;
+    margin: 2em auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(82, 81, 81, 0.35) 0px 5px 15px;
+    border-collapse: collapse;
+}
+
+td {
+    border-top: 1px solid #eee;
+}
+
+th:not(.title) {
+    background-color: #eee;
+}
+
+td, th {
+    padding: 0.5em;
+    text-align: left;
+}
+
+@media  (max-width: 800px) {
+    body {
+        font: 17px/1.5 Lato, sans-serif;
+    }
+}
+
