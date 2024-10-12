@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+.site {
+    max-width: 1150px;
+    margin: 2em auto;
+    border: 1px solid grey;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 2em;
+}
+
+h2 {
+    background-color: white;
+    padding: 0.5em 0;
+    text-align: center;
+    box-shadow: rgba(170, 170, 170, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+    margin-bottom: 1.5em;
+}
+
+.timeline article {
+    display: flex;
+    width: calc(50% + 30px);
+    gap: 30px;
+
+}
+
+.timeline article:nth-child(even) {
+    margin-left: calc(50% - 14px);
+    gap: 30px;
+    width: auto;
+}
+
+.timeline article > section {
+    background-color: white;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: rgba(170, 170, 170, 0.35) 0px 5px 15px;
+}
+
+.timeline article:nth-child(odd) > section {
+    text-align: right;
+}
+
+.timeline article::before {
+    display: block;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background-color: lime;
+    border-radius: 50%;
+    flex: 0 0 auto;
+    border: 2px solid white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.timeline article:nth-child(even)::before {
+    background-color: orange;
+}
+
+.timeline article:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.timeline .container {
+    position: relative;
+}
+
+.timeline .container::after {
+    display: block;
+    background-color: grey;
+    width: 2px;
+    content: '';
+    height: 120%;
+    position: absolute;
+    top: 0;
+    left: calc(50% + 6.5px);
+    z-index: -1;
+}
+
+@media (max-width: 800px) {
+    .site {
+        max-width: 700px;
+    }
+}
