@@ -6,7 +6,7 @@
 
 body {
     background-color: #eee;
-    font: 20px/1.5 Lato, sans-serif;
+    font: 19px/1.5 Lato, sans-serif;
 }
 
 table {
@@ -29,6 +29,14 @@ th:not(.title) {
 td, th {
     padding: 0.5em;
     text-align: left;
+}
+
+table:nth-of-type(1) th:nth-child(1) {
+    width: 20%;
+}
+
+thead h2 {
+    padding: 0.4em 0.8em
 }
 
 @media  (max-width: 800px) {
