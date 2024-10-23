@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0e0e0;
+    font-family: 'Gochi Hand';
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.postcard {
+    width: 60%;
+    background-color: white;
+    border: 1px solid #cecece;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+}
+
+.postcard > .top_card {
+    position: relative;
+    padding: 1em 1.5em;
+}
+
+.postcard > .top_card > img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;;
+}
+
+.message {
+    width: 90%;
+    position: absolute;
+    bottom: 30px;
+    left: 5%;
+    padding: 1em;
+    background-color: #f3f4f4;
+    border: 1px solid #cecece;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-self: center;
+}
+
+.message > h1 {
+    margin-bottom: 0.5em;
+}
+
+.postcard > .bottom_card {
+    padding: 2em 3em;
+    background-color: #f8f8f9;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    border: 1px solid #cdcdcd;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.bottom_card > h2 {
+    margin-bottom: 0.5em;
+}
+
+p {
+    color: #666766;
+}
+
+
