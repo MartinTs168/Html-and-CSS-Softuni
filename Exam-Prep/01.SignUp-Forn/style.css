@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+body {
+    background-color: #c2bdbb;
+    font-family: 'Kode Mono', sans-serif;
+}
+
+.card {
+    width: 45%;
+    margin: 2em auto;
+    background-color: #25333c;
+    padding: 2em;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.register_type {
+    flex: 1 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.register_type > div {
+    flex: 0 0 50%;
+    padding: 0.8em;
+    text-align: center;
+}
+
+.register_type > .left {
+    background-color: #2eb487;
+    color: white;
+}
+
+.register_type > .right {
+    background-color: #455358;
+    color: #a8bab7;
+} 
+
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+
+
+span {
+    color: #2eb487
+}
+
+.entry {
+    position: relative;
+}
+
+form label {
+    color: #a2b4b1;
+    position: absolute;
+    top:20%;
+    left: 0%;
+    padding-left: 0.5em
+}
+
+.entry > input {
+    width: 100%;
+    padding: 0.5em;
+    background-color: #25333c;
+    border: 1px solid #a2b4b1;
+    font-family: 'Kode Mono', sans-serif;
+}
+
+
+.entry {
+    flex: 1 1 100%;
+    margin-top: 0.5em;
+}
+
+.half {
+    flex: 0 0 calc(50% - 0.75em);
+    margin-top: 0;
+}
+
+form > button {
+    padding: 0.5em;
+    text-align: center;
+    background-color: #2eb487;
+    color: white;
+    border: none;
+    font-family: 'Kode Mono', sans-serif;
+    cursor: pointer;
+    flex: 1 1 100%;
+    margin-top: 1em;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
